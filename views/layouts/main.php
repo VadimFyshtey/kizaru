@@ -33,7 +33,6 @@ AppAsset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title><?= Html::encode($this->title) ?></title>
-    <meta name="description" content="">
     <?= Html::csrfMetaTags() ?>
     <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
 <?php $this->head() ?>

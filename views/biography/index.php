@@ -41,7 +41,4 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
     <!--Реклама-->
-
-    <?= yeesoft\comments\widgets\Comments::widget(['model' => $biography]); ?>
-
 </div>
