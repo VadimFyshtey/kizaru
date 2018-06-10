@@ -40,7 +40,7 @@ AppAsset::register($this);
 
 <body>
 <?php $this->beginBody() ?>
-<header>
+<head   er>
     <div class="container">
         <div class="col-lg-3 col-md-3 col-xs-5">
             <a href="/"><?= Html::img('@web/images/kizaru_logo.png', ['class' => 'kizaru_logo pull-left', 'alt' => 'Kizaru', 'title' => 'Kizaru']) ?></a>

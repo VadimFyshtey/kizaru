@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'file',
                 'format' => 'raw',
                 'value' => function($data){
-                    return "<audio src=\"/musics/{$data->file}\" controls></audio>";
+                    return "<audio src=\"/web/musics/{$data->file}\" controls></audio>";
                 }
             ],
         ],

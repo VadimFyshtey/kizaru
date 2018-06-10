@@ -67,7 +67,7 @@ class MusicController extends Controller
         $model = new Music();
 
         if(isset($_FILES["music"])){
-            $path = $_SERVER['DOCUMENT_ROOT'] . '/web/music/';
+            $path = $_SERVER['DOCUMENT_ROOT'] . '/web/musics/';
             $name = time() . $_FILES["music"]["name"];
 
             if(move_uploaded_file($_FILES["music"]["tmp_name"],  $path . $name)){
@@ -99,7 +99,7 @@ class MusicController extends Controller
 
         if(isset($_FILES["music"])){
             $path = $_SERVER['DOCUMENT_ROOT'] . '/web/music/';
-            $name = time() . $_FILES["music"]["name"];
+            $name = time() . $_FILES["musics"]["name"];
 
             if(move_uploaded_file($_FILES["music"]["tmp_name"],  $path . $name)){
                 $model->file = $name;
